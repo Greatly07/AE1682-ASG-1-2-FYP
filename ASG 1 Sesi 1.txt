@@ -1,0 +1,32 @@
+Programming Language: C
+Compiler used: https://www.programiz.com/c-programming/online-compiler/
+
+(1)	Create an algorithm pseudo-code to calculate area of rectangle with following formula:
+#include <stdio.h>
+
+int main() {
+    int length, width, area;
+    length = 5;
+    width = 3;
+    area = length * width;
+    
+    printf("The Area of the Rectangle is %d", area);
+
+    return 0;
+}
+
+(2)	Create an algorithm pseudo-code to calculate an area of rectangle with the same formula of previous example, with new condition where the length and width is given by user (input).
+#include <stdio.h>
+
+int main() {
+    int length, width, area;
+    printf("Enter Length:\n");
+    scanf("%d", &length);
+    printf("Enter Width:\n");
+    scanf("%d", &width);
+    area = length * width;
+    
+    printf("The Area of the Rectangle is %d", area);
+
+    return 0;
+}

@@ -1,0 +1,11 @@
+Programming Language: C
+Compiler used: https://www.programiz.com/c-programming/online-compiler/
+
+(1)	Write a simple program that prints your name and favorite programming language.
+#include <stdio.h>
+
+int main() {
+    printf("My Name is Levi and my favorite Programming Language is C");
+
+    return 0;
+}
